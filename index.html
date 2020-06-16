@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Account</title>
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lato:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <h1>Epicodus Banking Industries</h1>
+  <h6>For the right interest rate, we'll approve anyone!</h6>
+
+  <form id="new-account">
+    <label for="userName">Enter your Name</label>
+    <br>
+    <input type="text" id="userName">
+    <br>
+    <label for="initialDeposit">Please enter your initial deposit:</label>
+    <br>
+    <input type="number" id="initialDeposit">
+    <br>
+    <br>
+    <button type="submit">Submit!</button>
+    <br>
+    <br>
+    <label for="giveMeMoney">Deposit:</label>
+    <br>
+    <input type="number" id="giveMeMoney">
+    <br>
+    <label for="takeMyMoney">Withdrawal:</label>
+    <br>
+    <input type="number" id="takeMyMoney">
+    <br>
+    <br>
+    <br>
+    <br>
+  </form>
+  <div class="row">
+    <div class="col-md-5"></div>
+    <div class="col-md-2">
+      <div class="currentAccount">
+        <p class="userName"></p>
+        <h6>Current Balance:</h6>
+        <p class="balanceDisplay"></p>
+      </div>
+    </div>
+    <div class="col-md-5"></div>
+  </div>
+</body>
+
+</html> 
